@@ -1,0 +1,10 @@
+mat-nav-list {
+  display:flex;
+  flex-wrap:wrap;
+
+  app-category-item {
+    margin:10px;
+    background-color: lightgrey;
+    height: 300px;
+  }
+}

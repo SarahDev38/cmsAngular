@@ -1,0 +1,12 @@
+<mat-card *ngIf="category$ | async as category" >
+
+  <mat-card-header>
+    <mat-card-title><span titleColor color="blue">{{category.title | titlecase}}</span></mat-card-title>
+  </mat-card-header>
+
+  <mat-card-content>
+    <img mat-card-image *ngIf="category.imageUrl as imageUrl" [src]="imageUrl" alt="post.title">
+    <span class="category-content" *ngIf="category.content as content">{{content}}</span>
+  </mat-card-content>
+
+</mat-card>

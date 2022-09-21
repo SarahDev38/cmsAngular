@@ -1,0 +1,33 @@
+mat-toolbar {
+  height: 7vh;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal !important;
+    font-size: 110%;
+    white-space: normal;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  span {
+    font-size: 160%;
+  }
+
+  div {
+    overflow: inherit;
+  }
+
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
